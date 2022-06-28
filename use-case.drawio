@@ -1,0 +1,134 @@
+<mxfile host="65bd71144e">
+    <diagram id="nR2ihUTGfRoejAPsZp48" name="Page-1">
+        <mxGraphModel dx="1082" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeWidth=2;shadow=1;fontStyle=3;fontFamily=Courier New;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="420" width="30" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Manage Category" style="ellipse;whiteSpace=wrap;html=1;shadow=1;strokeWidth=2;fontStyle=3;fontFamily=Courier New;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="250" width="110" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Manage Product" style="ellipse;whiteSpace=wrap;html=1;shadow=1;strokeWidth=2;fontStyle=1;fontFamily=Courier New;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="530" width="110" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Manage Supplier" style="ellipse;whiteSpace=wrap;html=1;shadow=1;strokeWidth=2;fontStyle=3;fontFamily=Courier New;fontSize=15;gradientColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="400" width="110" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="endArrow=none;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;fontStyle=3;fontFamily=Courier New;fontSize=14;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="180" y="480" as="sourcePoint"/>
+                        <mxPoint x="230" y="430" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="" style="endArrow=none;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fontStyle=3;fontFamily=Courier New;fontSize=14;" edge="1" parent="1" source="2" target="5">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="140" y="456.66666666666674" as="sourcePoint"/>
+                        <mxPoint x="210" y="340" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="" style="endArrow=none;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;fontStyle=3;fontFamily=Courier New;fontSize=14;" edge="1" parent="1" source="2" target="4">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="150" y="466.66666666666674" as="sourcePoint"/>
+                        <mxPoint x="220" y="350" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="33" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=1 1;fontFamily=Courier New;fontSize=12;strokeWidth=2;fontStyle=3;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=block;endFill=1;" edge="1" parent="1" source="10" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Delete Category" style="ellipse;whiteSpace=wrap;html=1;shadow=1;fontFamily=Courier New;fontSize=15;strokeWidth=2;fontStyle=3" vertex="1" parent="1">
+                    <mxGeometry x="340" y="155" width="90" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="&amp;lt;&amp;lt;extend&amp;gt;" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=1 1;fontFamily=Courier New;fontSize=12;strokeWidth=2;fontStyle=3;endArrow=block;endFill=1;" edge="1" parent="1" source="11" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Update Category" style="ellipse;whiteSpace=wrap;html=1;shadow=1;fontFamily=Courier New;fontSize=15;strokeWidth=2;fontStyle=3" vertex="1" parent="1">
+                    <mxGeometry x="220" y="130" width="90" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;fontFamily=Courier New;fontSize=12;strokeWidth=2;dashed=1;dashPattern=1 1;fontStyle=3;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=block;endFill=1;" edge="1" parent="1" source="12" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Add Category" style="ellipse;whiteSpace=wrap;html=1;shadow=1;fontFamily=Courier New;fontSize=14;strokeWidth=2;fontStyle=3" vertex="1" parent="1">
+                    <mxGeometry x="110" y="160" width="90" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=1 1;fontFamily=Courier New;fontSize=12;strokeWidth=2;fontStyle=3;endArrow=block;endFill=1;" edge="1" parent="1" source="13" target="3">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="View Category" style="ellipse;whiteSpace=wrap;html=1;shadow=1;fontFamily=Courier New;fontSize=14;strokeWidth=2;fontStyle=3" vertex="1" parent="1">
+                    <mxGeometry x="220" y="360" width="90" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=1 1;fontFamily=Courier New;fontSize=12;strokeWidth=2;fontStyle=3;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=block;endFill=1;" edge="1" parent="1" source="14" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Find Product" style="ellipse;whiteSpace=wrap;html=1;shadow=1;fontFamily=Courier New;fontSize=15;strokeWidth=2;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="40" y="630" width="90" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=1 1;fontFamily=Courier New;fontSize=12;strokeWidth=2;fontStyle=3;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=block;endFill=1;" edge="1" parent="1" source="23" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="Delete Product" style="ellipse;whiteSpace=wrap;html=1;shadow=1;fontFamily=Courier New;fontSize=15;strokeWidth=2;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="270" y="640" width="90" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=1 1;fontFamily=Courier New;fontSize=12;strokeWidth=2;fontStyle=3;endArrow=block;endFill=1;" edge="1" parent="1" source="24" target="4">
+                    <mxGeometry x="-0.462" y="-4" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="Update Product" style="ellipse;whiteSpace=wrap;html=1;shadow=1;fontFamily=Courier New;fontSize=15;strokeWidth=2;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="160" y="650" width="90" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=1 1;fontFamily=Courier New;fontSize=12;strokeWidth=2;fontStyle=3;exitX=0;exitY=1;exitDx=0;exitDy=0;endArrow=block;endFill=1;" edge="1" parent="1" source="25" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="Add Product" style="ellipse;whiteSpace=wrap;html=1;shadow=1;fontFamily=Courier New;fontSize=15;strokeWidth=2;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="290" y="450" width="90" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 1;fontFamily=Courier New;fontSize=12;strokeWidth=2;fontStyle=3;endArrow=block;endFill=1;" edge="1" parent="1" source="26" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="View Product" style="ellipse;whiteSpace=wrap;html=1;shadow=1;fontFamily=Courier New;fontSize=15;strokeWidth=2;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="380" y="530" width="90" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 1;fontFamily=Courier New;fontSize=12;strokeWidth=2;fontStyle=3;endArrow=block;endFill=1;" edge="1" parent="1" source="27" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="Delete Supplier" style="ellipse;whiteSpace=wrap;html=1;shadow=1;fontFamily=Courier New;fontSize=15;strokeWidth=2;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="620" y="400" width="90" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;courier new&amp;quot;; font-size: 12px; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline; float: none;&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;" style="edgeStyle=none;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=1 1;fontFamily=Courier New;fontSize=12;strokeWidth=2;fontStyle=3;exitX=0;exitY=1;exitDx=0;exitDy=0;endArrow=block;endFill=1;" edge="1" parent="1" source="28" target="5">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="504.3055887890023" y="389.1666561718939" as="sourcePoint"/>
+                        <mxPoint x="434.8908729652601" y="411.25126265847075" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" value="Update Supplier" style="ellipse;whiteSpace=wrap;html=1;shadow=1;fontFamily=Courier New;fontSize=15;strokeWidth=2;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="530" y="320" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=1 1;fontFamily=Courier New;fontSize=12;strokeWidth=2;fontStyle=3;endArrow=block;endFill=1;" edge="1" parent="1" source="29" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="Add Supplier" style="ellipse;whiteSpace=wrap;html=1;shadow=1;fontFamily=Courier New;fontSize=15;strokeWidth=2;fontStyle=3" vertex="1" parent="1">
+                    <mxGeometry x="410" y="290" width="90" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="View Supplier" style="ellipse;whiteSpace=wrap;html=1;shadow=1;fontFamily=Courier New;fontSize=15;strokeWidth=2;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="540" y="490" width="90" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=1 1;fontFamily=Courier New;fontSize=12;strokeWidth=2;fontStyle=3;exitX=0;exitY=0;exitDx=0;exitDy=0;endArrow=block;endFill=1;" edge="1" parent="1" source="30">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="568.0048831254549" y="500.3883716349653" as="sourcePoint"/>
+                        <mxPoint x="498.9965062580293" y="459.6813330747019" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="56" value="Add Category" style="ellipse;whiteSpace=wrap;html=1;shadow=1;fontFamily=Courier New;fontSize=15;strokeWidth=2;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="110" y="160" width="90" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="Manage Supplier" style="ellipse;whiteSpace=wrap;html=1;shadow=1;strokeWidth=2;fontStyle=1;fontFamily=Courier New;fontSize=15;gradientColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="400" width="110" height="70" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
