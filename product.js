@@ -151,7 +151,7 @@ product_router.get('/view', async (req, res) => {
 
 //end view
 
-//add 
+//add as
 
 product_router.get('/addProduct', async (req, res) => {
     const client = await MongoClient.connect(uri, {
