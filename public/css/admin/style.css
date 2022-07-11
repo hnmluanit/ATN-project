@@ -2,16 +2,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Gamja+Flower');
 
 
+.title{
+  font-weight: 900;
+  color: #57606f;
+  
+}
+
+.button{
+  border: 1px solid black;
+  background-color: #a4b0be;
+  font-weight: 400;
+  color: black;
+  font-size:20px;
+  width: 100;
+  height: 80px;
+  border-radius: 20%;
+}
 
 body, html {
   width: 100%;
   height: 100%;
   font-size: 15px;
-  font-family: 'Gamja Flower';
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .main-header .sidebar-toggle:before {
   content: "";
+}
+
+.main-text{
+  font-weight: 900;
 }
 
 .content-wrap {
@@ -127,6 +147,3 @@ body, html {
  
 }
 
-.main-sidebar .sidebar-menu a {
-
-}
